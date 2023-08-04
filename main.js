@@ -45,17 +45,7 @@ function getRepos() {
 
           maindiv.appendChild(theUrl);
 
-          // Create Stars Count Span
-          let starsSpan = document.createElement("span");
-          // Create Stars Count Span text
-          let starsText = document.createTextNode(
-            `starts ${data.stargazers_count}`
-          );
-          // Add Stars Count Text To Stars Span
-          starsSpan.appendChild(starsText);
-
-          // Append Stars Count Span To Main Div
-          maindiv.appendChild(starsSpan);
+          
           // Add Class On Main Div
           maindiv.className = "repo-box";
           // Append The Main Div To Container
