@@ -66,8 +66,7 @@ body {
     margin-bottom: 5px;
 }
 
-.repos-container .show-data .repo-box a,
-.repos-container .show-data .repo-box span {
+.repos-container .show-data .repo-box a{
     float: right;
     margin-left: 4px;
     border-radius: 4px;
@@ -82,11 +81,7 @@ body {
     text-decoration: none;
     background-color: #e91e63;
 }
-
-.repos-container .show-data .repo-box span {
-    background-color: #009600;
-}
-
+
 @media (max-width:676px) {
     .repos-container {
         width: 360px;
